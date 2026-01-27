@@ -1,0 +1,13 @@
+public class StringExample {
+    public static void main(String[] args) {
+     
+        String a  = "hello world";// stores in the string pool
+        String b = new String("hello world");//creates a new object in the memory
+//these two may look the same but they are completely differenet cus the "new" makes it a completely new objecty so the first one wont be equal to the second one
+
+System.out.print(a == b);// false
+System.out.print(a.equals(b));// true
+
+
+    }
+}
